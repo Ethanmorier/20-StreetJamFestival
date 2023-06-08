@@ -1,10 +1,202 @@
+@font-face {
+  font-family: 'Stribe Marker';
+  src: url('../fonts/StribeMarker.woff2') format('woff2'),
+    url('../fonts/StribeMarker.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  max-width: 320px;
+  max-width: 375px;
   margin: auto;
   background: #ddd;
+}
+
+main {
+  background: #fffbee;
 }
 
 img {
   display: block;
   max-width: 100%;
+  padding-bottom: 30px;
+}
+
+header {
+  background-image: url(../img/graffiti-background.jpg);
+  background-size: cover;
+  padding-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  position: sticky;
+  font-family: 'Stribe marker';
+  background-image: url(../img/background-vague.svg);
+  padding: 10px;
+  color: #fffbee;
+  font-size: 40px;
+  margin: 0%;
+  top: 0;
+  text-shadow: #e4d748;
+}
+
+h2 {
+  font-family: 'Stribe marker';
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0%;
+  padding: 0px 20px 20px 20px;
+  background-color: #fffbee;
+}
+
+p {
+  color: black;
+  font-family: 'Arial Rounded MT Bold';
+}
+
+.cta-street-jam-festival {
+  display: flex;
+  color: #fffbee;
+  background: #d34a3e;
+  text-decoration: none;
+  border-radius: 200px;
+  margin-top: 20px;
+  font-family: 'Stribe marker';
+  padding: 15px;
+}
+
+.cta-street-food {
+  display: flex;
+  color: #fffbee;
+  background: #d34a3e;
+  text-decoration: none;
+  border-radius: 200px;
+  margin-top: 20px;
+  font-family: 'Stribe marker';
+  padding: 15px;
+}
+
+.cta-contact {
+  display: flex;
+  color: #fffbee;
+  background: #d34a3e;
+  text-decoration: none;
+  border-radius: 200px;
+  margin-top: 20px;
+  font-family: 'Stribe marker';
+  padding: 15px;
+}
+
+.class-intro {
+  padding: 30px 30px 0px 30px;
+  background-image: url(../img/background-beige.jpg);
+}
+
+.class-graf {
+  background-image: url(../img/background-jaune.jpg);
+  padding: 30px 30px 10px 30px;
+  ;
+}
+
+.class-graf-title {
+  color: #e4d748;
+}
+
+.class-skate {
+  background-image: url(../img/background-vert.jpg);
+  padding: 30px 30px 0px 30px;
+}
+
+.class-skate-title {
+  color: #7cb045;
+
+}
+
+.class-musique {
+  background-image: url(../img/background-violet.jpg);
+  padding: 30px 30px 0px 30px;
+}
+
+.class-musique-title {
+  color: #7446ae;
+}
+
+.class-food {
+  background-image: url(../img/background-bleu.jpg);
+  padding: 30px 30px 10px 30px;
+}
+
+.class-food-title {
+  color: #458fac;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  color: #fffbee;
+}
+
+
+.img-dessin {
+  align-items: flex-end;
+  width: 1000px;
+}
+
+.box-title {
+  text-align: center;
+}
+
+.img .box-title {
+  width: 100px;
+}
+
+footer {
+  padding: 0px 0px 70px 0px;
+  background-image: url(../img/graffiti-background-for-footer.jpg);
+  text-align: center;
+}
+
+.cta-footer {
+  display: flex;
+  color: #fffbee;
+  background: #e4d748;
+  text-align: center;
+  border-radius: 200px;
+  margin-top: 20px;
+  font-family: 'Arial Rounded MT Bold';
+  padding: 15px;
+  flex-direction: column;
+}
+
+footer h2 {
+  color: #e4d748;
+  background-color: #3700fd00;
+  padding: 0px 20px 20px 20px;
+}
+
+footer p {
+  color: #fffbee;
+}
+
+#scroll_to_top {
+  position: sticky;
+  width: 50px;
+  height: 0px;
+  bottom: 50px;
+  right: 100px;
+}
+
+#scroll_to_top img {
+  width: 30px;
 }
