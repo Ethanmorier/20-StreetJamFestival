@@ -156,6 +156,11 @@ strong {
   padding: 30px 30px 10px 30px;
 }
 
+.class-food strong{
+  white-space: pre-line;
+  text-align: start;
+}
+
 .class-food-title {
   color: #458fac;
 }
