@@ -225,4 +225,10 @@ footer p,a {
 
 #scroll_to_top img {
   width: 30px;
+  align-items: center;
+}
+.scroll{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
