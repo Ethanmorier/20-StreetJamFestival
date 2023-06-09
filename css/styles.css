@@ -127,6 +127,10 @@ strong {
   padding: 30px 30px 0px 30px;
 }
 
+.class-skate p {
+  white-space: pre-line;
+}
+
 .class-skate-title {
   color: #7cb045;
 
