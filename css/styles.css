@@ -32,7 +32,7 @@ img {
 header {
   background-image: url(../img/graffiti-background.jpg);
   background-size: cover;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
 }
 
 nav {
@@ -45,7 +45,7 @@ h1 {
   position: sticky;
   font-family: 'Stribe marker';
   background-image: url(../img/background-vague.svg);
-  padding: 10px;
+  padding: 10px 10px 25px 10px;
   color: #fffbee;
   font-size: 40px;
   margin: 0%;
