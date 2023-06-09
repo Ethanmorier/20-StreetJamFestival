@@ -1,5 +1,8 @@
 html {
   scroll-behavior: smooth;
+background-image: url(../img/background-mur.jpg);
+background-size: contain;
+background-attachment: fixed;
 }
 
 body {
