@@ -182,6 +182,7 @@ strong {
   width: 100px;
 }
 
+
 footer {
   padding: 0px 0px 70px 0px;
   background-image: url(../img/graffiti-background-for-footer.jpg);
@@ -198,6 +199,7 @@ footer {
   font-family: 'Arial Rounded MT Bold';
   padding: 15px;
   flex-direction: column;
+ 
 }
 
 footer h2 {
