@@ -141,6 +141,12 @@ strong {
   padding: 30px 30px 0px 30px;
 }
 
+.class-musique p {
+  color: #fffbee;
+  white-space: pre-line;
+  text-align: start;
+}
+
 .class-musique-title {
   color: #7446ae;
 }
