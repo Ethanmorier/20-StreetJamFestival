@@ -168,13 +168,10 @@ strong {
 .container {
   display: flex;
   flex-direction: row-reverse;
-  color: #fffbee;
 }
 
-
 .img-dessin {
-  align-items: flex-end;
-  width: 1000px;
+  width: 100px;
 }
 
 .box-title {
